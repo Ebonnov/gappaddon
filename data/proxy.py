@@ -25,7 +25,9 @@
 #                                                                           #
 #############################################################################
 
-import BaseHTTPServer, SocketServer, urllib, urllib2, urlparse, zlib, socket, os, common, sys, errno, base64, re
+import BaseHTTPServer, SocketServer, urllib, urllib2, urlparse, zlib, socket, os, sys, errno, base64, re
+# common.py for loading proxy.conf
+import common
 try:
     import ssl
     ssl_enabled = True
